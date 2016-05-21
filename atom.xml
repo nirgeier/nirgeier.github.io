@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[CodeWizard]]></title>
+  <link href="http://nirgeier.github.io/atom.xml" rel="self"/>
+  <link href="http://nirgeier.github.io/"/>
+  <updated>2016-05-22T00:45:17+03:00</updated>
+  <id>http://nirgeier.github.io/</id>
+  <author>
+    <name><![CDATA[Nir Geier]]></name>
+    <email><![CDATA[nirgeier@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Install & configure clean Ubuntu]]></title>
+    <link href="http://nirgeier.github.io/blog/2016/04/24/ubuntu_virtual_box/"/>
+    <updated>2016-04-24T00:00:00+03:00</updated>
+    <id>http://nirgeier.github.io/blog/2016/04/24/ubuntu_virtual_box</id>
+    <content type="html"><![CDATA[<!--more-->
+
+<h2 id="pre-requirments">Pre-Requirments</h2>
+
+<ul>
+  <li>Download and install <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">Virtual Box</a>.</li>
+  <li>Download and install <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">Virtual box extentions</a></li>
+  <li>Download and <a href="http://www.7-zip.org/download.html " _target="_blank">unzip</a> the <a href="http://www.osboxes.org/ubuntu">VirtulBox  images</a> which you wish to use</li>
+  <li><a href="http://www.ubuntu.com/download/alternative-downloads" target="_blank">Ubuntu </a></li>
+</ul>
+
+<hr />
+
+<h2 id="installing-the-image">Installing the image</h2>
+
+<ul>
+  <li>Click on the <strong>New…</strong> Icon
+    <ul>
+      <li>Type in the desired name for the image</li>
+      <li>In the <strong>Type</strong> choose <strong><code>Linux</code></strong></li>
+      <li>In the version choose <strong><code>Ubuntu (64 Bit)</code></strong></li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="http://imgur.com/download/Xy0sPE0" alt="" /></p>
+
+<ul>
+  <li>Click <strong><code>Next</code></strong> and set the <strong>Memory Size</strong> to 4096 MB</li>
+</ul>
+
+<p><img src="http://imgur.com/download/jF1hknw" alt="" /></p>
+
+<ul>
+  <li>Click <strong><code>Next</code></strong> and choose <strong>Create a virtaul hard disk now</strong></li>
+</ul>
+
+<p><img src="http://imgur.com/download/Vk3PCNV" alt="" /></p>
+
+<ul>
+  <li>Click <strong><code>Next</code></strong> and choose <strong>VDI (VirtualBox Disk iamge)</strong></li>
+</ul>
+
+<p><img src="http://imgur.com/download/8W2pNPZ" alt="" /></p>
+
+<ul>
+  <li>Click <strong><code>Next</code></strong> and choose <strong>Dynamically allocated</strong></li>
+</ul>
+
+<p><img src="http://imgur.com/download/3i2gTZd" alt="" /></p>
+
+<ul>
+  <li>Click <strong><code>Next</code></strong> and Set the name and the size of the desired Image<br />
+     The optimal size should be set to 100GB</li>
+</ul>
+
+<p><img src="http://imgur.com/download/JKCvAyd" alt="" /></p>
+
+<ul>
+  <li>Click on the <strong>Create</strong> button.</li>
+</ul>
+
+<hr />
+
+<h2 id="configuration">Configuration</h2>
+
+<ul>
+  <li>
+    <p>Under the menu open <strong>Settigns</strong></p>
+  </li>
+  <li>
+    <p><strong>General</strong> | <strong>Advanced</strong> - Set the bidectional values</p>
+  </li>
+</ul>
+
+<p><img src="http://imgur.com/download/7rlBxol" alt="" /></p>
+
+<ul>
+  <li><strong>System</strong> | <strong>Base Memory</strong> to atleast 4096 MB</li>
+</ul>
+
+<p><img src="http://imgur.com/download/tTL22ra" alt="" /></p>
+
+<ul>
+  <li><strong>Display</strong> | <strong>Video Memroy</strong> to 128MB &amp;&amp; Check the <strong><code>Enable 3D Acceleration</code></strong></li>
+</ul>
+
+<p><img src="http://imgur.com/download/MaH7zR1" alt="" /></p>
+
+<ul>
+  <li><strong>Shared Folders</strong> - Add your desired shared folder and mount them</li>
+</ul>
+
+<p><img src="http://imgur.com/download/s0wJKwS" alt="" /></p>
+
+<h2 id="installing-the-image-1">Installing the Image</h2>
+
+<ul>
+  <li>Mark the New create machine on the left side and click <strong>Start</strong> on the menu</li>
+  <li>In the <strong>Select start-up disk</strong> browse and choose the image you downloaded before.</li>
+</ul>
+
+<p><img src="http://imgur.com/download/n4atE9f" alt="" /></p>
+
+<ul>
+  <li>Click <strong>Start</strong> and follow the instructions on screen to install the image</li>
+</ul>
+
+<p><img src="http://imgur.com/download/JhX3G88" alt="" /></p>
+
+<hr />
+
+<p><img src="http://imgur.com/download/WYnwoo2" alt="" /></p>
+
+<hr />
+
+<p><img src="http://imgur.com/download/A4YPsiS" alt="" /></p>
+
+<hr />
+
+<p><img src="http://imgur.com/download/ytIqXSu" alt="" /></p>
+
+<hr />
+
+<p><img src="http://imgur.com/download/NzKkqPU" alt="" /></p>
+
+<hr />
+
+<p><img src="http://imgur.com/download/uzsN896" alt="" /></p>
+
+<hr />
+
+<p><img src="http://imgur.com/download/tbTbvq2" alt="" /></p>
+
+<hr />
+
+<p><img src="http://imgur.com/download/ktK4BDj" alt="" /></p>
+
+<hr />
+
+<h3 id="if-the-first-run-is-not-responding-continue-with-kbdctrlkbdkbdckbd-on-this-screen">If the first run is not responding continue with <kbd>CTRL</kbd>+<kbd>C</kbd> on this screen</h3>
+
+<p><img src="http://imgur.com/download/YZZG3fe" alt="" /></p>
+
+<hr />
+
+<p><img src="http://imgur.com/download/4Lv3asZ" alt="" /></p>
+
+<hr />
+
+<p><img src="http://imgur.com/download/H68Ejea" alt="" /></p>
+
+<hr />
+
+<h2 id="configuration-1">Configuration</h2>
+
+<p>Now once that all is set up lets start to work on the content of the image</p>
+
+<ul>
+  <li>Start the image in VirtualBox</li>
+  <li>On the login screen use your name and password</li>
+</ul>
+
+<!-- -->
+
+<ul>
+  <li>Install virtual box guest addition
+    - In the Virtual machine under the <strong>Device</strong> menu</li>
+</ul>
+
+<p><img src="http://imgur.com/download/Web71rR" alt="" /></p>
+
+<ul>
+  <li>Restart the machine before processding to te next section</li>
+</ul>
+
+<h2 id="setting-up-the-environment">Setting up the environment</h2>
+
+<ul>
+  <li>From this point on we are going to work inside the terminal window to install all reuired pieces.<br /></li>
+  <li>
+    <p>Open the terminal and lets start work.</p>
+  </li>
+  <li>Add users to the shared folder group</li>
+</ul>
+<figure class="code"><figcaption><span>Set up shared folders</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line">sudo usermod -G vboxsf -a &lt;username&gt;
+</span></code></pre></td></tr></table></div></figure>
+
+<ul>
+  <li>
+    <p>Logout and login with the new username</p>
+  </li>
+  <li>
+    <p>Fix the vi not to print letters instead of moving with the kyes in</p>
+  </li>
+</ul>
+<figure class="code"><figcaption><span>Fix vi</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nb">echo</span> <span class="s1">&#39;set nocompatible&#39;</span> <span class="p">|</span> sudo tee --append <span class="nv">$HOME</span>/.vimrc
+</span></code></pre></td></tr></table></div></figure>
+
+<ul>
+  <li>Set the vi as default editor</li>
+</ul>
+<figure class="code"><figcaption><span>Set vi as default editor</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nb">set alias </span><span class="nv">vi</span><span class="o">=</span>vim
+</span></code></pre></td></tr></table></div></figure>
+
+<ul>
+  <li>Add proxy configuration to: <kbd>/etc/environment</kbd></li>
+</ul>
+<figure class="code"><figcaption><span>configure proxy</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line">sudo gedit /etc/profile
+</span><span class="line"><span class="nb">export </span><span class="nv">http_proxy</span><span class="o">=</span>http://web-proxy.bbn.hp.com:8080
+</span><span class="line"><span class="nb">export </span><span class="nv">ftp_proxy</span><span class="o">=</span>http://web-proxy.bbn.hp.com:8080
+</span></code></pre></td></tr></table></div></figure>
+
+<ul>
+  <li>Add this line to <kbd>/etc/apt/apt.conf</kbd></li>
+</ul>
+<figure class="code"><figcaption><span>Configure proxy</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line">sudo touch /etc/apt/apt.conf
+</span><span class="line">Acquire::http::proxy <span class="s2">&quot;http://web-proxy.bbn.hp.com:8080&quot;</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<ul>
+  <li>Add the following repositories &amp; keys to apt-get</li>
+</ul>
+<figure class="code"><figcaption><span>add repositories</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line">sudo add-apt-repository ppa:git-core/ppa -y
+</span><span class="line"><span class="nb">echo</span> <span class="s1">&#39;add-apt-repository ppa:git-core/ppa;&#39;</span> <span class="p">|</span> sudo tee --append /etc/apt/apt.conf
+</span><span class="line"><span class="nb">echo</span> <span class="s1">&#39;add-apt-repository ppa:webupd8team/java;&#39;</span> <span class="p">|</span> sudo tee --append /etc/apt/apt.conf
+</span></code></pre></td></tr></table></div></figure>
+
+<ul>
+  <li>Uninstall unrequired applications and install all the reuired ones</li>
+</ul>
+<figure class="code"><figcaption><span>update and upgrade</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line">sudo apt-get remove --purge unity-webapps-common
+</span><span class="line">sudo apt-get remove --purge libreoffice*
+</span><span class="line">sudo apt-get autoremove
+</span><span class="line">
+</span><span class="line"><span class="c"># update and upgrade the system</span>
+</span><span class="line">sudo apt-get update
+</span><span class="line">sudo apt-get upgrade
+</span><span class="line">
+</span><span class="line"><span class="c"># Install all required packages (Should be run on a single line)</span>
+</span><span class="line">sudo apt-get install tree git git-doc gitk git-email git-gui gitweb git-notifier grokmirror
+</span><span class="line">&lt;br/&gt;terminator npm default-jre python-software-properties vim unity-tweak-tool zsh firefox
+</span><span class="line">&lt;br/&gt;xfe python-software-properties compizconfig-settings-manager ruby-full
+</span><span class="line">
+</span><span class="line">- Install &lt;kbd&gt;oh my zsh&lt;/kbd&gt;
+</span></code></pre></td></tr></table></div></figure>
+<p>bash install Oh my zsh
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+chsh -s /bin/zsh</p>
+<figure class="code"><figcaption><span>update and upgrade</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line">- Install git LFS - not mandatory
+</span></code></pre></td></tr></table></div></figure>
+<p>bash Install GIT lFS
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+sudo apt-get install git-lfs
+sudo git lfs install</p>
+<figure class="code"><figcaption><span>update and upgrade</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line">- Speed up the display and stop the flickering&lt;br/&gt;
+</span><span class="line">Disable effects, such as fading windows, animations and window decoration
+</span></code></pre></td></tr></table></div></figure>
+<p>bash Disable animations and fades
+ccsm
+```</p>
+
+<ul>
+  <li>Install google chrome<br />
+From the <strong>Software Center</strong> install the GDebi Package Installer
+Open firefox and go to this url <br />
+https://www.google.com/intl/en-US/chrome/browser/thankyou.html?platform=linux</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
